@@ -1,0 +1,2 @@
+semi-franja 30 km: dias con oportunidad 30/180 -> 1 cada 6.0 dias
+semi-franja 52 km: dias con oportunidad 33/180 -> 1 cada 5.5 dias

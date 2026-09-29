@@ -1,0 +1,10 @@
+Periodo 95.65 min, orbitas/dia 15.05, inclinacion SSO 97.59 deg
+elev min 5: angulo central 18.5 deg, rango max 2206 km
+elev min 10: angulo central 15.0 deg, rango max 1816 km
+elev min 15: angulo central 12.2 deg, rango max 1518 km
+beta 0: eclipse 35.6 min, sol 60.0 min
+beta 15: eclipse 35.2 min, sol 60.5 min
+beta 22: eclipse 34.6 min, sol 61.1 min
+beta 30: eclipse 33.6 min, sol 62.1 min
+emin 10: pasos/dia 2.37, duracion media 6.6 min, max 7.9 min, contacto/dia 15.6 min
+emin 15: pasos/dia 2.07, duracion media 5.4 min, max 6.4 min, contacto/dia 11.1 min

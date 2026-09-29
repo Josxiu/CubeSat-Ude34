@@ -1,0 +1,65 @@
+=== CARGA UTIL ===
+f = 30.2 mm, franja = 103.7 km, v_suelo = 6.98 km/s
+t_exp max (0.5 px) = 2.86 ms; franja por banda = 19.4 km; cuadro cada 2.78 s
+cuadro crudo = 6.30 MB; cuadros por oportunidad = 29; datos crudos/oportunidad = 183 MB
+apuntamiento requerido para dejar el objetivo a >=10 km del borde: 4.4 deg
+f/2.8 -> D = 10.8 mm; radio de Airy a 840 nm = 2.87 um (1.30 px)
+
+=== ENLACE UHF DESCENDENTE ===
+elev 10 deg (d=1816 km): FSPL=150.4 dB, C/N0=55.7 dBHz | 9.6k margen +5.9 dB | 19.2k margen +2.9 dB | 38.4k margen -0.2 dB
+elev 30 deg (d=1002 km): FSPL=145.2 dB, C/N0=60.9 dBHz | 9.6k margen +11.0 dB | 19.2k margen +8.0 dB | 38.4k margen +5.0 dB
+elev 90 deg (d=550 km): FSPL=140.0 dB, C/N0=66.1 dBHz | 9.6k margen +16.2 dB | 19.2k margen +13.2 dB | 38.4k margen +10.2 dB
+
+=== ENLACE UHF ASCENDENTE ===
+Prx en el satelite (10 deg) = -97.4 dBm vs sensibilidad AX100 -122 dBm @ 5 kbaud -> margen 24.6 dB
+
+=== DATOS ===
+9.6 kbps: capacidad util 0.67 MB/dia, 3.7 MB por ciclo de 5.5 dias
+19.2 kbps: capacidad util 1.35 MB/dia, 7.4 MB por ciclo de 5.5 dias
+ROI 50x50 km, 4 bandas, comprimida: 3.91 MB; quicklook por oportunidad 0.36 MB; TM 0.092 MB/dia
+Almacenamiento crudo de 10 oportunidades = 1.83 GB -> con margen 50% = 3.65 GB
+Buffer RAM doble cuadro (16 bit) = 20.2 MB -> SDRAM >= 40 MB (margen 50%)
+CAN 1 Mbps efectivo ~450 kbps vs 19.2 kbps requeridos -> uso 4.3%
+
+=== ENERGIA (por orbita, Wh) ===
+OBC (MCU Cortex-M4/M33 clase baja potencia + FRAM + NOR)   Pnom 0.10 Pmax 0.20 ciclo 100.00% E 0.159
+UHF Rx (clase AX100: 55 mA @3.3 V)                         Pnom 0.18 Pmax 0.40 ciclo 100.00% E 0.287
+UHF Tx 1 W RF (800 mA @3.3 V)                              Pnom 2.64 Pmax 3.30 ciclo   0.65% E 0.027
+ADCS sensores (mag + giro + 6 sol grueso)                  Pnom 0.10 Pmax 0.15 ciclo 100.00% E 0.159
+ADCS magnetorquers (3 ejes)                                Pnom 0.20 Pmax 0.60 ciclo  50.00% E 0.159
+ADCS rueda de momento (eje pitch)                          Pnom 0.30 Pmax 1.00 ciclo 100.00% E 0.478
+Carga util: sensor + procesador + SDRAM + eMMC             Pnom 1.70 Pmax 2.50 ciclo   0.13% E 0.003
+Calefactor de bateria (nominal 0; peor caso ver abajo)     Pnom 1.00 Pmax 1.00 ciclo   0.00% E 0.000
+Cargas 1.27 Wh -> con conversion (88%) + EPS 0.16 = 1.61 Wh/orbita
+  beta 15: generacion 1.81 Wh -> margen +11%
+  beta 22: generacion 2.00 Wh -> margen +20%
+  beta 30: generacion 2.20 Wh -> margen +27%
+Peor orbita (paso 7.9 min Tx + 10 min carga util + calefactor): 2.46 Wh -> deficit 0.65 Wh cubierto por bateria
+Energia en eclipse nominal 0.59 Wh -> DoD 3.2% de 18.7 Wh; peor orbita DoD 7.7%
+Modo seguro (OBC+Rx+sensores+B-dot, sin rueda ni carga util): 0.65 W medio -> 1.03 Wh/orbita vs 1.94 Wh tumbling
+Autonomia solo bateria en modo seguro (80% DoD): 23 h
+Comparacion: EnduroSat UHF II en Rx (1.2 W) = 1.91 Wh/orbita, solo escuchando
+
+=== MASA (g) ===
+Estructura 1U                                      110
+Tornilleria, soportes y arnes                       70
+4 paneles solares laterales (2 celdas TJ c/u)      160
+PCB-1 EPS                                           60
+Bateria 2x18650 + soporte                          115
+PCB-2 OBC/ADCS/COM                                  60
+Modulo transceptor UHF                              25
+Antena UHF desplegable (+Z)                         85
+Rueda de momento                                    60
+3 magnetorquers                                     23
+Sensores de sol gruesos                             10
+PCB-3 carga util (sensor + procesador)              60
+Optica f~30 mm + filtro de 4 bandas + montura      120
+Total 958 g; con 20% de margen 1150 g (57% de 2.00 kg)
+
+=== VOLUMEN (mm en Z) ===
+Antena UHF desplegable (+Z), altura a confirmar con datasheet  12
+PCB-1 EPS + baterias 18650 horizontales               25
+PCB-2 OBC/ADCS/COM (transceptor montado como hija)    15
+PCB-3 carga util (sensor en cara -Z, procesador/SDRAM/eMMC atras)  12
+Optica f~30 mm (barril sobre el sensor)               30
+Total 94 mm de ~98 mm internos utiles (estimado) -> holgura 4 mm

@@ -1,0 +1,46 @@
+<mxfile host="drawio" type="device">
+<diagram id="Disposicion" name="Disposicion">
+<mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="960" pageHeight="660" math="0" shadow="0">
+<root>
+<mxCell id="0"/>
+<mxCell id="1" parent="0"/>
+<mxCell id="c1" value="Estructura 1U ISISPACE (interior de 98.4 mm)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=19;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="160" y="10" width="760" height="30" as="geometry"/></mxCell>
+<mxCell id="c2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#dddddd;strokeColor=#888888;" vertex="1" parent="1"><mxGeometry x="180" y="54" width="512.0" height="512.0" as="geometry"/></mxCell>
+<mxCell id="c3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#ffffff;strokeColor=#aaaaaa;" vertex="1" parent="1"><mxGeometry x="190" y="64" width="492.0" height="492.0" as="geometry"/></mxCell>
+<mxCell id="c4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#23407a;strokeColor=#23407a;" vertex="1" parent="1"><mxGeometry x="164" y="64" width="12" height="492.0" as="geometry"/></mxCell>
+<mxCell id="c5" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#23407a;strokeColor=#23407a;" vertex="1" parent="1"><mxGeometry x="696.0" y="64" width="12" height="492.0" as="geometry"/></mxCell>
+<mxCell id="c6" value="Antena UHF ISISPACE (guardada)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="192" y="65" width="488.0" height="33" as="geometry"/></mxCell>
+<mxCell id="c7" value="PCB-1 · EPS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="195" y="102" width="482.0" height="26" as="geometry"/></mxCell>
+<mxCell id="c8" value="2 celdas 18650 (2S)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#fbe3d6;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="205" y="132" width="325" height="87" as="geometry"/></mxCell>
+<mxCell id="c9" value="PCB-2 · OBC / ADCS / COM" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="195" y="227" width="482.0" height="26" as="geometry"/></mxCell>
+<mxCell id="c10" value="Transceptor UHF (hija)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#eaf1fb;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="340" y="257" width="325" height="36" as="geometry"/></mxCell>
+<mxCell id="c11" value="PCB-3 · Carga útil" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="195" y="302" width="482.0" height="26" as="geometry"/></mxCell>
+<mxCell id="c12" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="406.0" y="331" width="60" height="12" as="geometry"/></mxCell>
+<mxCell id="c13" value="sensor de imagen" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1"><mxGeometry x="472.0" y="326" width="170" height="22" as="geometry"/></mxCell>
+<mxCell id="c14" value="Óptica&lt;br&gt;f = 30 mm&lt;br&gt;+ filtro" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#eeeeee;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="374.0" y="361" width="124" height="147" as="geometry"/></mxCell>
+<mxCell id="c15" value="Rueda&lt;br&gt;CW0017" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="532.0" y="367" width="140" height="130" as="geometry"/></mxCell>
+<mxCell id="c16" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#9673a6;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="191" y="256" width="4" height="40" as="geometry"/></mxCell>
+<mxCell id="c17" value="Libre ≈ 9 mm" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#ffffff;strokeColor=#999999;dashed=1;dashPattern=6 4;" vertex="1" parent="1"><mxGeometry x="195" y="511" width="482.0" height="43.0" as="geometry"/></mxCell>
+<mxCell id="c18" value="" style="html=1;strokeColor=#777777;strokeWidth=2;fontSize=13;fontColor=#777777;endArrow=none;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="714.0" y="66" as="sourcePoint"/><mxPoint x="714.0" y="97" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="c19" value="7 mm" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1"><mxGeometry x="722.0" y="68.5" width="150" height="26" as="geometry"/></mxCell>
+<mxCell id="c20" value="" style="html=1;strokeColor=#777777;strokeWidth=2;fontSize=13;fontColor=#777777;endArrow=none;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="714.0" y="101" as="sourcePoint"/><mxPoint x="714.0" y="222" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="c21" value="25 mm" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1"><mxGeometry x="722.0" y="148.5" width="150" height="26" as="geometry"/></mxCell>
+<mxCell id="c22" value="" style="html=1;strokeColor=#777777;strokeWidth=2;fontSize=13;fontColor=#777777;endArrow=none;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="714.0" y="226" as="sourcePoint"/><mxPoint x="714.0" y="297" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="c23" value="15 mm" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1"><mxGeometry x="722.0" y="248.5" width="150" height="26" as="geometry"/></mxCell>
+<mxCell id="c24" value="" style="html=1;strokeColor=#777777;strokeWidth=2;fontSize=13;fontColor=#777777;endArrow=none;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="714.0" y="301" as="sourcePoint"/><mxPoint x="714.0" y="357" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="c25" value="12 mm" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1"><mxGeometry x="722.0" y="316.0" width="150" height="26" as="geometry"/></mxCell>
+<mxCell id="c26" value="" style="html=1;strokeColor=#777777;strokeWidth=2;fontSize=13;fontColor=#777777;endArrow=none;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="714.0" y="361" as="sourcePoint"/><mxPoint x="714.0" y="507" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="c27" value="30 mm" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1"><mxGeometry x="722.0" y="421.0" width="150" height="26" as="geometry"/></mxCell>
+<mxCell id="c28" value="" style="html=1;strokeColor=#777777;strokeWidth=2;fontSize=13;fontColor=#777777;endArrow=none;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="714.0" y="511" as="sourcePoint"/><mxPoint x="714.0" y="554.0" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="c29" value="≈ 9 mm" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1"><mxGeometry x="722.0" y="519.5" width="150" height="26" as="geometry"/></mxCell>
+<mxCell id="c30" value="Total: 89 de 98.4 mm" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=18;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="712.0" y="570.0" width="240" height="28" as="geometry"/></mxCell>
+<mxCell id="c31" value="+Z" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=18;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="10" y="68" width="140" height="28" as="geometry"/></mxCell>
+<mxCell id="c32" value="Paneles solares fijos en las 4 caras, con sensores de sol" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1"><mxGeometry x="6" y="140" width="150" height="100" as="geometry"/></mxCell>
+<mxCell id="c33" value="Magnetorquers planos en las paredes" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1"><mxGeometry x="6" y="234" width="150" height="80" as="geometry"/></mxCell>
+<mxCell id="c34" value="La rueda va junto a la óptica" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1"><mxGeometry x="6" y="389" width="150" height="80" as="geometry"/></mxCell>
+<mxCell id="c35" value="" style="html=1;strokeColor=#1f77b4;strokeWidth=2;fontSize=13;fontColor=#1f77b4;endArrow=block;endFill=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="436.0" y="568.0" as="sourcePoint"/><mxPoint x="436.0" y="608.0" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="c36" value="−Z: hacia la Tierra" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=17;" vertex="1" parent="1"><mxGeometry x="448.0" y="576.0" width="300" height="28" as="geometry"/></mxCell>
+</root>
+</mxGraphModel>
+</diagram>
+</mxfile>

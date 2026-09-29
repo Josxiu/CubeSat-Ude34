@@ -1,0 +1,5 @@
+Potencia por cara a incidencia normal: 1.91 W
+beta 15: nadir -> P media orbital 1.14 W, E/orbita 1.81 Wh, P media en sol 1.80 W, eclipse 35.2 min
+beta 22: nadir -> P media orbital 1.26 W, E/orbita 2.00 Wh, P media en sol 1.97 W, eclipse 34.6 min
+beta 30: nadir -> P media orbital 1.38 W, E/orbita 2.20 Wh, P media en sol 2.13 W, eclipse 33.6 min
+tumbling: P media orbital 1.22 W, E/orbita 1.94 Wh
